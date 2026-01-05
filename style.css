@@ -159,8 +159,8 @@ body {
 .banner .slider{ 
     position: absolute;
     width: 200px;
-    height: 250px;
-    top: 10%;
+    height: 170px;
+    top: 15%;
     left: calc(50% - 100px);
     transform-style: preserve-3d;
     transform: perspective(1000px);
@@ -249,7 +249,7 @@ body {
 
 @media (max-width: 768px) {
   .banner {
-    height: 60vh;
+    height: 120vh;
   }
 
   .slider .item img {
@@ -269,7 +269,7 @@ body {
 
 @media (max-width: 480px) {
   .banner {
-    height: 60vh;
+    height: 50vh;
   }
   .slider {
     transform: translateZ(180px);
